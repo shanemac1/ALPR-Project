@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Environment variables (contains sensitive data)
+.env
+backend/.env
+frontend/.env.local
+
+# Uploaded images (user data)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# ML model files (too large for GitHub – download separately)
+*.onnx
+backend/MLmodels/*.onnx
+
+# Build output
+frontend/build/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbbs.db
+
+# MongoDB local data
+mongodb_data/
+models_cache/
