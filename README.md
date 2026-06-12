@@ -92,7 +92,7 @@ python -m venv .venv
 # macOS / Linux
 source .venv/bin/activate
 
-pip install -r backend/requirements.txt
+pip install -r requirements.txt
 ```
 
 ### 6. Install frontend dependencies
